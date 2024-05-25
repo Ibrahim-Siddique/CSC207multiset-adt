@@ -394,6 +394,7 @@ class Tree:
 
     def insert(self, item: Any) -> None:
         """Insert <item> into this tree using the following algorithm.
+       else:
 
             1. If the tree is empty, <item> is the new root of the tree.
             2. If the tree has a root but no subtrees, create a
