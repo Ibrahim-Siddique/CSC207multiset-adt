@@ -257,7 +257,7 @@ public class Tree {
             if ((random.nextInt(3) + 1) == 3) {
                 this.subtrees.add(new Tree(item, new ArrayList<>()));
             } else {
-                int subtree_index = random.nextInt(this.subtrees.size() - 1);
+                int subtree_index = random.nextInt(this.subtrees.size());
                 this.subtrees.get(subtree_index).insert(item);
             }
         }
